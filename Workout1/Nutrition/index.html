@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Nutrition</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Nutrition</h1>
+    </header>
+    <header>
+      <img src="images/Angle.png" alt="Click Here to return to homepage" title="Click here" width="100">
+      <nav>
+        <ul>
+          <a href="fitness2.html" class="button">Home</a>
+          <a href="Nutrition.html" class="button">Nutrition</a>
+          <a href="Workouts.html" class="button">Workouts</a>
+          <a href="Stretching.html" class="button">Stretching</a>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section>
+        <h2>Micronutrients</h2>
+        <img src="images/Nutrition/Micronutrients.jpg">
+        <p>Micronutrients are the essential nutrients that our bodies need in smaller amounts to function properly. They include:</p>
+        <ol>
+          <li>Vitamins - help regulate bodily functions and support growth and development.</li>
+          <li>Minerals - help maintain healthy bones, teeth, and skin, and are important for many bodily functions.</li>
+          <li>Water - essential for hydration, regulating body temperature, and transporting nutrients throughout the body.</li>
+        </ol>
+        <p>It's important to eat a varied and balanced diet to ensure adequate intake of all micronutrients.</p>
+      </section>
+
+      <section>
+        <h2>Protein</h2>
+        <img src="images/Nutrition/protein.jpg">
+        <p>Protein is an essential macronutrient that is important for building and repairing tissues, as well as supporting muscle growth and maintenance. Good sources of protein include:</p>
+        <ul>
+          <li>Meat, poultry, and fish</li>
+          <li>Beans and legumes</li>
+          <li>Eggs and dairy products</li>
+          <li>Nuts and seeds</li>
+        </ul>
+        <p>It's important to include a variety of protein sources in your diet to ensure adequate intake of all essential amino acids.</p>
+      </section>
+
+      <section>
+        <h2>Carbohydrates</h2>
+        <img src="images/Nutrition/carbohydrates.jpg">
+        <p>Carbohydrates are an important source of energy for our bodies, and are essential for brain function. Good sources of carbohydrates include:</p>
+        <ul>
+          <li>Whole grains, such as brown rice, quinoa, and whole wheat bread</li>
+          <li>Fruits and vegetables</li>
+          <li>Legumes, such as beans, lentils, and chickpeas</li>
+          <li>Dairy products, such as milk and yogurt</li>
+        </ul>
+        <p>It's important to choose carbohydrates that are high in fiber and nutrients, and to avoid highly processed and sugary foods.</p>
+      </section>
+      <section>
+        <h2>Fats</h2>
+        <img src="images/Nutrition/realfats.jpg">
+        <p>Fats are an important macronutrient that provide energy, help protect our organs, and aid in the absorption of fat-soluble vitamins. However, not all fats are created equal. There are several types of fats, including:</p>
+        <ul>
+          <li>Saturated fats - found in animal products like meat, cheese, and butter, as well as in some plant-based oils like coconut and palm oil. Consuming too much saturated fat has been linked to an increased risk of heart disease.</li>
+          <li>Trans fats - found in processed foods like margarine, snack foods, and fried foods. Trans fats are particularly harmful and should be avoided as much as possible.</li>
+          <li>Monounsaturated fats - found in foods like olive oil, avocados, and nuts. These types of fats can help lower cholesterol levels and reduce the risk of heart disease.</li>
+          <li>Polyunsaturated fats - found in foods like salmon, flaxseed, and walnuts. These types of fats are essential for brain function and can help lower inflammation in the body.</li>
+        </ul>
+        <p>It's important to choose healthy sources of fats and avoid consuming too much saturated and trans fats. Aim to include a variety of healthy fats in your diet to support overall health and wellness.</p>
+      </section>
+      
+      <footer>
+        <p>&copy; 2023 New Workouts. All rights reserved.</p>
+        <p id="current-year"></p>
+      </footer>
+     
+</html>
+
+
+<style>
+    /* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #2980b9;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin: 0;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    margin-bottom: 20px;
+  }
+  
+  ul, ol {
+    margin-bottom: 20px;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  .button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #000;
+    border-radius: 5px;
+    }
+    
+    .button:hover {
+    background-color: #333;
+    }
+    .button {
+    position: relative;
+    }
+    
+    .button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    }
+  
+  /* Specific styles */
+  #macronutrients {
+    background-color: #f1c40f;
+    color: #333;
+    padding: 20px;
+  }
+  
+  #micronutrients {
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  #protein {
+    background-color: #3498db;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  #carbohydrates {
+    background-color: #27ae60;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  #fats {
+    background-color: #8e44ad;
+    color: #fff;
+    padding: 20px;
+  }
+
+  @media screen and (max-width: 768px) {
+    header {
+      font-size: 1.5rem;
+    }
+    
+    h2 {
+      font-size: 1.5rem;
+    }
+    
+    li {
+      font-size: 1.2rem;
+    }
+    
+    p {
+      font-size: 1.2rem;
+    }
+  }
+  
+</style>
+
+<script>
+  const date = new Date();
+  const currentYear = date.getFullYear();
+  const yearText = document.createTextNode(currentYear);
+  const yearElement = document.getElementById('current-year');
+  yearElement.appendChild(yearText);
+
+</script>
+
